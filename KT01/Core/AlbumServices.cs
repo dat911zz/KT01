@@ -8,7 +8,7 @@ namespace KT01.Core
 {
     public class AlbumServices
     {
-        string ConnStr = @"Data Source=A101PC41;Initial Catalog=QL_BaiHat;Integrated Security=True";
+        string ConnStr = @"Data Source=DESKTOP-GUE0JS7;Initial Catalog=QL_BaiHat;Integrated Security=True";
         public List<Models.Album> GetAll()
         {
             List<Models.Album> list = new List<Models.Album>();

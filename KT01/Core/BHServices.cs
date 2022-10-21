@@ -8,7 +8,7 @@ namespace KT01.Core
 {
     public class BHServices
     {
-        string ConnStr = @"Data Source=A101PC41;Initial Catalog=QL_BaiHat;Integrated Security=True";
+        string ConnStr = @"Data Source=DESKTOP-GUE0JS7;Initial Catalog=QL_BaiHat;Integrated Security=True";
         public List<Models.BaiHat> GetAll()
         {
             List<Models.BaiHat> list = new List<Models.BaiHat>();
