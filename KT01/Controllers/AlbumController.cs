@@ -35,7 +35,7 @@ namespace KT01.Controllers
             if (uploadFile != null && uploadFile.ContentLength > 0)
             {
                 var fileName = Path.GetFileName(uploadFile.FileName);
-                var path = Path.Combine(Server.MapPath("~/App_Data/AnhTest"), fileName);
+                var path = Path.Combine(Server.MapPath("~/Contents/Image_QLBH/"), fileName);
                 uploadFile.SaveAs(path);
             }
             return RedirectToAction("Index");
